@@ -52,7 +52,7 @@
             console.log('hi2')
             document.getElementById('question-title-text-openai').innerText = searchInput.substring(0,20) + "...?"
             document.getElementById('question-text-openai').innerText = searchInput
-            document.getElementById('answer-text-openai').innerText = data;
+            document.getElementById('answer-text-openai').innerHTML = `<div class="snippet" data-babel="false" data-console="false" data-hide="false"><div class="snippet-code"><pre class="snippet-code-html lang-html prettyprint-override"<code>${data}</code></pre></div></div>`
         }
     </script>
 

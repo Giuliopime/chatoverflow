@@ -25,7 +25,9 @@ export async function get({ request }) {
         temperature: 0.1
     });
 
-    return new Response(JSON.stringify(openAiResponse.data.choices[0].text.replaceAll("+", "")), {
+    const code = JSON.stringify(openAiResponse.data.choices[0].text.replace(/^\+ ?/mg, ''))
+
+    return new Response(code, {
         status: 200,
         headers: {
             "Content-Type": "application/json"
