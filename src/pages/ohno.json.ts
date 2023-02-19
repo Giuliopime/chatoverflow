@@ -46,7 +46,7 @@ export async function get({ request }) {
         }
     } catch (e) {
         console.log(e);
-        return new Response(JSON.stringify(e), {
+        return new Response(JSON.stringify(e.message), {
             status: 200,
             headers: {
                 "Content-Type": "application/json"
