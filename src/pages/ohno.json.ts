@@ -26,6 +26,8 @@ export async function get({ request }) {
             temperature: 0.1
         });
 
+        // Ok
+
         if (openAiResponse.status != 200) {
             console.log(openAiResponse.statusText);
             return new Response(openAiResponse.statusText, {
