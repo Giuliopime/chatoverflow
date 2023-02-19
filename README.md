@@ -1,4 +1,7 @@
 ### Just for the meme ¯\_(ツ)_/¯
+Create a `.env` file and copy the content of the `.env.template` file in it.
+Replace the org and api key values with yours from https://platform.openai.com/account/api-keys
+
 
 ## 🧞 Commands
 
