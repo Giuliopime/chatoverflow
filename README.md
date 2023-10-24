@@ -2,6 +2,8 @@
 Create a `.env` file and copy the content of the `.env.template` file in it.
 Replace the org and api key values with yours from https://platform.openai.com/account/api-keys
 
+## Demo
+[![demo](https://img.youtube.com/vi/N4sBHYpM8Hc/0.jpg)](https://www.youtube.com/watch?v=N4sBHYpM8Hc)  
 
 ## 🧞 Commands
 
